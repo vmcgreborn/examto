@@ -1,0 +1,15 @@
+
+
+server:
+  port: 8091
+
+
+#Database properties
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled: true
+spring.jpa.generate-ddl: true
+
+#create create-drop update validate none
+spring.jpa.hibernate.ddl-auto: update
+
+
